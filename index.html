@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ankieta zgłoszeniowa</title>
+    <script>
+        function sendData() {
+            let imie = document.getElementById('imie');
+            let nazwisko = document.getElementById('nazwisko');
+            let pesel = document.getElementById('pesel');
+
+        }
+    </script>
+</head>
+<body>
+    <form id="formularz">
+        <input type="text" id="imie" name="imie" placeholder="Twoje imię">
+        <input type="text" id="nazwisko" name="nazwisko" placeholder="Twoje nazwisko">
+        <input type="text" id="pesel" name="pesel" placeholder="Twój PESEL">
+        <button type="button" onclick="sendData()">Prześlij</button>
+    </form>
+
+</body>
+</html>
